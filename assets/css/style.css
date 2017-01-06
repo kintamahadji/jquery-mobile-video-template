@@ -1,0 +1,156 @@
+/**
+* 0.0 General section
+*
+*
+*/
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;	
+}
+
+
+/**
+* 1.0 Header section
+*
+* Css related to header section
+*/
+
+/* header */
+#header-search {
+	padding: 0 5px;
+}
+
+
+/* Left panel */
+#left-panel .ui-panel-inner{
+	padding: 0;
+}
+
+#left-panel #left-panel-page-menu ul {
+	padding: 0;
+	margin: 0;
+}
+
+#left-menu {
+	padding: 1em;
+}
+
+/**
+* 2.0 Content section
+*
+* CSS content
+*/
+
+#wrap-main-content {
+	background: #e9eaf2;
+}
+
+#main-content{
+	background: #fff;
+	text-shadow: none;
+	padding: 15px;
+}
+
+#main-content img{
+	max-width: 100%;
+}
+
+
+.wrap-video {}
+
+.wrap-video .video {
+	border-bottom: 1px solid #ccc;
+	padding: 15px 0;
+}
+
+@media only screen and (max-width: 480px) {
+	.wrap-video .video .video-img {
+		width: 150px;
+		height: 112px;
+		position: relative;
+		float: left;
+		margin-right: 10px;
+	}
+
+	.wrap-video .video .video-time span{
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 480px) {
+	.wrap-video .video .video-img {
+		width: 200px;
+		height: 112px;
+		position: relative;
+		float: left;
+		margin-right: 10px;
+	}
+}
+
+.wrap-video .video .video-img-thumbnail img {
+	width: 100%;
+}
+
+.wrap-video .video .video-time span{
+	background: #333;
+	color: #fff;
+	position: absolute;
+	z-index: 9999;
+	font-size: 0.9em;
+	right: 10px;
+	bottom: 10px;
+}
+
+.wrap-video .video .video-title h2{
+	font-weight: normal;
+	font-size: 0.9em;
+	padding: 0;
+	margin: 0 0 5px 0;
+}
+
+.wrap-video .video .video-title h2 a {
+	text-decoration: none;
+	color: #000;
+}
+
+.wrap-video .video .video-meta ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.wrap-video .video .video-meta ul li {
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 10px;
+}
+
+
+/**
+* #.# Helper class
+*
+*
+*/
+.img-responsive {
+	width: 100%;
+}
+
+.clear-fix {
+	clear:both;
+}
+
+.text-center {
+	text-align: center;
+}
+
+
+/**
+* #.# Override
+* 
+* Override css jquery Mobilr
+*/
+.ui-page {
+}
+
+.ui-content {
+	padding: 12px;
+}
